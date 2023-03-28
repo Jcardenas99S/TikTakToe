@@ -1,0 +1,26 @@
+#app{
+    display: grid;
+    justify-content: center;
+}
+main {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+}
+
+app-square {
+    height: 200px;
+}
+.titulo{
+    display: grid;
+    color: white;
+    font-weight: 900;
+    justify-content: center;
+}
+.ganador{
+    display: grid;
+    justify-content: center;
+    color: white;
+    background-color: green;
+}
